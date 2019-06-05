@@ -1,0 +1,9 @@
+Feature: Basket
+  As a end user
+  I want to search for a product
+  So I can view the results
+  @reg
+  Scenario: Search for a product
+    Given I am on home page
+    When I search for a product
+    Then I should be able to see respective results

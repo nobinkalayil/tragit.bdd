@@ -1,0 +1,75 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 19217870300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setup()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Search for a product",
+        "description": "",
+        "id": "search;search-for-a-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 352910800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am on home page",
+            "match": {
+              "location": "LoginSteps.i_am_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7864551000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for a product",
+            "match": {
+              "location": "LoginSteps.i_search_for_a_product()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 42200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be able to see respective results",
+            "match": {
+              "location": "LoginSteps.i_should_be_able_to_see_respective_results()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Search",
+    "description": "As a end user\r\nI want to search for a product\r\nSo I can view the results",
+    "id": "search",
+    "keyword": "Feature",
+    "uri": "src/test/resourses/search"
+  }
+]
